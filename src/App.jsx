@@ -3,7 +3,7 @@ import Player from "./components/Player.jsx"
 import GameBoard from "./components/GameBoard.jsx"
 import Log from "./components/Log.jsx"
 import Gameover from "./components/Gameover.jsx"
-const WINNING_COMBINATIONS=[[{row:0,col:0},{row:0,col:1},{row:0,col:2}]]
+const WINNING_COMBINATIONS=[[{row:0,col:0},{row:0,col:1},{row:0,col:2}],[{row:0,col:0},{row:1,col:0},{row:2,col:0}],[{row:2,col:0},{row:2,col:1},{row:2,col:2}],[{row:0,col:2},{row:1,col:2},{row:2,col:2}],[{row:0,col:0},{row:1,col:1},{row:2,col:2}],[{row:0,col:2},{row:1,col:1},{row:2,col:0}],[{row:0,col:1},{row:1,col:1},{row:2,col:1}],[{row:1,col:0},{row:1,col:1},{row:1,col:2}]]
 
 const initialGameBoard=[
     [null,null,null],
