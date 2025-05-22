@@ -1,4 +1,7 @@
+
 # Tic Tac Toe
+
+![Tic Tac Toe Screenshot](/screenshot.png)
 
 A React-based Tic Tac Toe game with WebSocket functionality for real-time multiplayer gameplay.
 
